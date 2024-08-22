@@ -1,3 +1,4 @@
-console.log("Hello, Hexlet!");
-import _ from "lodash";
-console.log(_.last(["one", "two"]));
+import getLastArr from "./src/index.js";
+let arr = ["one" , "two" , "three"];
+const lastArr = getLastArr(arr);
+console.log(`Последний символ: ${lastArr}`);
